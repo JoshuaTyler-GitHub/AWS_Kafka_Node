@@ -1,0 +1,29 @@
+{
+  "name": "MSK_Node",
+  "version": "1.0.0",
+  "description": "Self-contained AWS Managed Stream Kafka Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Joshua Tyler",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.2.5",
+    "kafkajs": "^1.15.0",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34"
+  },
+  "type": "module"
+}

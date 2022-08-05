@@ -1,0 +1,8 @@
+{
+  "kafka": {
+    "arn": "arn:aws-us-gov:kafka:us-gov-west-1:812677824406:cluster/MSK-Node-MSKCluster/82460a93-116e-4bf2-98ce-b9995b90ab38-2",
+    "partitionCount": 1,
+    "replicationFactor": 3
+  },
+  "region": "us-gov-west-1"
+}
